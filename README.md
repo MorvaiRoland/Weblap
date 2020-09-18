@@ -1,5 +1,7 @@
 # Weblap 2020
-Komplex Programozás/ 
+Komplex Programozás
+# Csapatnév:
+- ProgramoZOO
 # Csapat vezető: 
 - Morvai Roland Zoltán
 # Csapat tagok: 
