@@ -1,5 +1,4 @@
-# Weblap 2020
-Komplex Programozás
+# Komplex Programozás Weblap 2020 Project #1
 # Csapatnév:
 - ProgramoZOO
 # Csapat vezető: 
