@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+    <title>ProgramoZOO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <img id="l" src="ee1d3c42-1ae0-4e38-ad2e-c9007a64ebaf_200x200.png"> 
+  <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+  <li><a class="active" href="főoldal1.html">Főoldal</a></li>
+  <li><a href="hitelek1.html">Hitelek</a></li>
+  <li><a href="hitelkalkulátor.html">Hitelkalkulátor</a></li>
+  <li><a href="kapcsolat.html">Kapcsolat</a></li>
+  <li><a href="rolunk.html">Rólunk</a></li>
+  </ul>
+  </nav>
+  <video src="Keyboard - 150.vid" id="home-bg-video" autoplay loop muted ></video>
+  
+    <div class="content">
+      <div>
+  </div>
+  <div>
+  </div>
+  </div>
+    <section class="section">
+      <div class="container">
+        <div class="content">
+         
+          <p>
+          </p>
+        </div>
+        <div class="columns">
+          <div class="column is-three-quarters">
+            <div class="card">
+              <div class="card-content">
+                <form id="loan-form">
+                  <div class="level">
+              
+                    <div class="level-left is-marginless">
+                      <div class="level-item">
+                        <p class="number">1</p>
+                        Kölcsön mennyisége
+                      </div>
+                    </div>
+                    <div class="level-right">
+                      <div class="level-item">
+                        <div class="field">
+                          <div class="control has-icons-left ">
+                            <input class="input" id="amount" type="number" />
+                            <span class="icon is-small is-left">
+                              <i class="fa fa-dollar-sign"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="level">
+                  
+                    <div class="level-left is-marginless">
+                      <div class="level-item">
+                        <p class="number">2</p>
+                      Kamatláb
+                      </div>
+                    </div>
+                    <div class="level-right">
+                      <div class="level-item">
+                        <div class="field">
+                          <div class="control has-icons-right">
+                            <input class="input" id="interest" type="number" />
+                            <span class="icon is-small is-right">
+                              <i class="fa fa-percentage"></i>
+                              
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="level">
+              
+                    <div class="level-left is-marginless">
+                      <div class="level-item">
+                        <p class="number">3</p>
+                     Évek száma
+                      </div>
+                    </div>
+                    <div class="level-right">
+                      <div class="level-item">
+                        <div class="field">
+                          <div class="control has-icons-left">
+                            <input class="input" id="years" type="number" />
+                            <span class="icon is-small is-left">
+                              <i class="fa fa-calendar"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="control">
+                    <button
+                      class="button is-large is-fullwidth is-primary is-outlined"
+                    >
+             Számol
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section"> 
+      <h1 class="title ">Kalkulálás eredménye</h1>
+<div class="columns is-multiline"> 
+  <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+    <div class="notification is-primary has-text">
+      <p id="monthlyPayment" class="title is-1">Ft</p>
+      <p class="subtitle is-4">Havonta fizetendő</p>
+    </div>
+  </div>
+    <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+        <div class="notification is-info has-text">
+          <p id="totalInterest" class="title is-1">%</p>
+          <p class="subtitle is-4">Teljes kamatláb</p>
+        </div>
+      </div>
+      <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+        <div class="notification is-link has-text">
+          <p id="totalPayment" class="title is-1">Ft</p>
+          <p class="subtitle is-4">Teljes vissza fizetendő összeg</p>
+        </div>
+      </div>
+</div>
+</section>
+  </body>
+  <footer>&copy; Copyright 2020 ProgramoZOO</footer>
+  <script src="app.js"></script>
+</html>
