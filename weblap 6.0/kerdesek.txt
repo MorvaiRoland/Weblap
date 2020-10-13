@@ -1,0 +1,4 @@
+Reszponzív probléma (eltűnik a menü, videó normálisan jelenjen meg mobilon is)
+Kapcsolat
+Hitelkalkulátort (forintra átírni)
+Miért csak 25mb lehet a rar archive
